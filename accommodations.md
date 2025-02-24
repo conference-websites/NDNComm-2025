@@ -8,26 +8,23 @@ hotels:
   expanded: True
   hotels:
   - id: luskin
-    name: UCLA Meyer and Renee Luskin Conference Center
-    rates: $239+
+    name: Luskin Conference Center 
+    rates: $275+
     amenities: [Free WiFi]
     address: 425 Westwood Plaza, Los Angeles, CA 90095, USA
     url: http://luskinconferencecenter.ucla.edu/
     phone: +1 (855) LCC-UCLA / +1 (855) 522-8252
     reservation-link: https://luskinconferencecenter.ucla.edu/reserve/
     map: "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3305.0031903347244!2d-118.44719493474814!3d34.06943247427142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c2bc8602a90341%3A0xd73874d4f138751a!2sUCLA+Meyer+and+Renee+Luskin+Conference+Center%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA!3m2!1d34.069179!2d-118.445718!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522597689735"
-    note: "Located in the heart of the UCLA campus, this new hotel and conference center opened its doors in August, 2016. Offering stunning accommodations, full restaurant, bar, and fitness facilities, the Luskin Conference Center is the ideal place to stay."
-    image: ucla-luskin-conference.jpg
+    note: "Located in the heart of the UCLA campus, this new hotel and conference center opened its doors in August, 2016. Offering stunning accommodations, full restaurant, bar, and fitness facilities."
 
   - id: guesthouse
-    name: UCLA Guest House
-    rates: $188+
-    url: http://www.guesthouse.ucla.edu/
+    name: The Inn at UCLA
+    rates: $250+
+    url: https://theinn.ucla.edu/
     amenities: [Free WiFi]
     address: 330 Charles E. Young Dr. East, Los Angeles, CA 90095
     phone: (310) 825-2923
-    reservation-info: "By email to guesthouse@ha.ucla.edu"
-    reservation-link: http://reservations.guesthouse.ucla.edu/
     map: "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3304.9045260176913!2d-118.44386193474791!3d34.07196162413799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c2bc621af2345b%3A0x4f9b874365001718!2sUCLA+Guest+House%2C+Charles+E+Young+Drive+East%2C+Los+Angeles%2C+CA!3m2!1d34.0745182!2d-118.4385016!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522597720594"
     note: "<p>Located in the northeast part of campus. Limited on-site parking, laundry facility, free wireless Internet, free campus shuttle, free medical center shuttle, and standard hotel amenities.</p>"
 
@@ -35,28 +32,48 @@ hotels:
   expanded: True
   hotels:
 
-  - id: hilgard
-    name: Hilgard House Hotel
-    url: http://www.hilgardhouse.com/
-    rates: $177+ (with UCLA discount) plus $10 parking
-    amenities: [Free WiFi, Free parking, Free continental breakfast]
-    rating: 2
-    address: 927 Hilgard Ave Los Angeles, CA 90024
-    phone: (310) 208-3945, (800) 826-3934
-    reservation-link: https://www.hotels.com/ho483132/?q-check-out=2018-06-29&q-check-in=2018-06-24
-    map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3305.1204076479407!2d-118.44535033474818!3d34.06642752442976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c2bc80c29ca7d3%3A0xd27a73d540e52357!2sHilgard+House+Hotel+%26+Suites%2C+927+Hilgard+Ave%2C+Los+Angeles%2C+CA+90024!3m2!1d34.0631863!2d-118.4415976!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522599295162
+  - id: w
+    name: W Los Angeles - West Beverly Hills
+    rates: $299-$500+
+    amenities: [Free WiFi]
+    address: 930 Hilgard Ave Los Angeles, CA 90024
+    url: https://www.marriott.com/en-us/hotels/laxwb-w-los-angeles-west-beverly-hills/overview/, 
+    phone:  (310) 208-8765, (888) 627-7135
+    rating: 4
+    map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3305.11985375466!2d-118.44527698474815!3d34.066441724429076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c2bc80951ef67d%3A0x43cd0ec4e1582890!2sW+Los+Angeles+-+West+Beverly+Hills%2C+930+Hilgard+Ave%2C+Los+Angeles%2C+CA+90024!3m2!1d34.0631975!2d-118.44092339999999!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522599358108
+    note: Designed for business travelers, restaurant and café, gym and pool, pet-friendly, spa services, and standard hotel amenities.
 
+  - id: pali
+    name: PaliHotel Westwood Village 
+    rates: $330+
+    amenities: [Free WiFi, Free Breakfast]
+    address: 1044 Tiverton Avenue Los Angeles, CA 90024
+    url: https://www.palisociety.com/hotels/westwood-village
+    phone: (310) 340-1234
+    rating: 4
+    map: 
+    note: "20 minute walk"
+    
   - id: royal
     name: Royal Palace Westwood Hotel
-    rates: $159+ (with UCLA discount)
+    rates: $159+
     url: http://www.royalpalacewestwood.com/
     amenities: [Free WiFi, Free parking, Free continental breakfast]
     address: 1052 Tiverton Ave Los Angeles, CA 90024
     phone: (310) 208-6677
     rating: 2
-    reservation-link: https://www.hotels.com/ho218157/?q-check-out=2018-06-29&q-check-in=2018-06-24
     map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d6610.364971745223!2d-118.4475699738806!3d34.06483601024111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c2bc81b6b5a8df%3A0x450a9efde8ecc81d!2sRoyal+Palace+Westwood+Hotel%2C+1052+Tiverton+Ave%2C+Los+Angeles%2C+CA+90024!3m2!1d34.0606338!2d-118.4429579!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522599313928
     note: Discounts for nearby attractions, and standard hotel amenities
+
+  - id: hilgard
+    name: Hilgard House Hotel
+    url: https://hilgardhousewestwoodvillage.thelosangeleshotels.com/en/
+    rates: $177+ plus $10 parking
+    amenities: [Free WiFi, Free parking, Free continental breakfast]
+    rating: 2
+    address: 927 Hilgard Ave Los Angeles, CA 90024
+    phone: (310) 208-3945, (800) 826-3934
+    map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3305.1204076479407!2d-118.44535033474818!3d34.06642752442976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c2bc80c29ca7d3%3A0xd27a73d540e52357!2sHilgard+House+Hotel+%26+Suites%2C+927+Hilgard+Ave%2C+Los+Angeles%2C+CA+90024!3m2!1d34.0631863!2d-118.4415976!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522599295162
 
   - id: tiverton
     name: UCLA Tiverton House
@@ -68,18 +85,6 @@ hotels:
     map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3305.121901598514!2d-118.44588323474811!3d34.06638922443189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c2bc8160e49741%3A0x984c8384256deae8!2sUCLA+Tiverton+House%2C+900+Tiverton+Ave%2C+Los+Angeles%2C+CA+90095!3m2!1d34.063092499999996!2d-118.4421359!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522599336646
     note: Medical Center shuttle service, community kitchen, children’s recreation room, fitness center, business center, guest library, wireless Internet in lounges, laundry room, and standard hotel amenities.
 
-  - id: w
-    name: W Los Angeles - West Beverly Hills
-    rates: $299-$500+
-    amenities: [Free WiFi]
-    address: 930 Hilgard Ave Los Angeles, CA 90024
-    url: http://www.starwoodhotels.com/whotels/property/overview/index.html?propertyID=97518
-    phone:  (310) 208-8765, (888) 627-7135
-    rating: 4
-    reservation-link: https://www.hotels.com/ho116008/?q-check-out=2018-06-29&q-check-in=2018-06-24
-    map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3305.11985375466!2d-118.44527698474815!3d34.066441724429076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c2bc80951ef67d%3A0x43cd0ec4e1582890!2sW+Los+Angeles+-+West+Beverly+Hills%2C+930+Hilgard+Ave%2C+Los+Angeles%2C+CA+90024!3m2!1d34.0631975!2d-118.44092339999999!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522599358108
-    note: Designed for business travelers, restaurant and café, gym and pool, pet-friendly, spa services, and standard hotel amenities.
-
   - id: palomar
     name: Kimpton Hotel Palomar Los Angeles Beverly Hills
     rates: $180-$330+ (with UCLA Discount)
@@ -88,7 +93,6 @@ hotels:
     url: http://www.hotelpalomar-beverlyhills.com/index.html
     phone: (310) 475-8711, (800) 472-8556
     rating: 4
-    reservation-link: https://www.hotels.com/ho130405/?q-check-out=2018-06-29&q-check-in=2018-06-24
     map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d6610.398238890218!2d-118.44573527388076!3d34.064409560286386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c2bc7f881104d7%3A0x234209e088bcad31!2sKimpton+Hotel+Palomar+Los+Angeles+Beverly+Hills%2C+10740+Wilshire+Blvd%2C+Los+Angeles%2C+CA+90024!3m2!1d34.060038899999995!2d-118.4374007!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522599387774
     note: Restaurant, pool, 24 hour fitness room, shuttle to/from UCLA, pet-friendly, free wireless Internet, day-care center for kids, same day laundry/dry-cleaning service, and standard hotel amenities. Exclusive AAA member discounts.
 
@@ -103,7 +107,6 @@ hotels:
     phone:     (310) 828-5517
     rates:     $139-$199+
     url:       http://www.comfortinnsantamonica.com/
-    reservation-link:
     note: Outdoor heated pool, complimentary hot breakfast buffet, morning paper, and convenient in-room amenities. Hotel is located three miles from UCLA.
     map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26445.342798292157!2d-118.47649835077317!3d34.05239036552008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x80c2bb4660f304a9%3A0x76f972293d2ca1a9!2sComfort+Inn+Santa+Monica+-+West+Los+Angeles%2C+2815+Santa+Monica+Blvd%2C+Santa+Monica%2C+CA+90404!3m2!1d34.035320999999996!2d-118.47242!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522600432698
 
@@ -113,7 +116,6 @@ hotels:
     phone:     (310) 829-9100
     rates:     $177-$229+
     url:       http://www.gatewayhotel.com/
-    reservation-link:
     note: Complimentary underground parking and fitness room, free weekday shuttle to beach and Third Street Promenade. Hotel is located 3.6 miles from UCLA.
     map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26447.02673202099!2d-118.47695845078061!3d34.04699171787824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x80c2bb360f698c65%3A0x56e058700b0dd281!2sGateway+Hotel+Santa+Monica%2C+1920+Santa+Monica+Blvd%2C+Santa+Monica%2C+CA+90404!3m2!1d34.028242999999996!2d-118.479968!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522600457835
 
@@ -123,7 +125,6 @@ hotels:
     phone:     (310) 556-2777 - front desk, (800) 750-0953 - reservations
     rates:     $189+
     url:       http://www.marriott.com/hotels/travel/laxce-courtyard-los-angeles-century-city-beverly-hills/
-    reservation-link:
     note: Newly renovated in 2013. Walking distance to shopping at Century City Mall, and a mile from Rodeo Drive. Hotel offers an outdoor whirlpool, exercise area, and free internet access throughout property. Hotel is located 2.4 miles from UCLA.
     map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13221.817856732137!2d-118.43968341530143!3d34.05786246682964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x80c2bb932f56b221%3A0xf026a65ca781f0a2!2sCourtyard+by+Marriott+Los+Angeles+Century+City%2FBeverly+Hills%2C+10320+W+Olympic+Blvd%2C+Los+Angeles%2C+CA+90064!3m2!1d34.052517!2d-118.416775!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522600476298
 
@@ -133,7 +134,6 @@ hotels:
     phone:     (310) 478-1400
     rates:     $164-$215+ (with UCLA Discount)
     url:       http://www.hiewestla.com/
-    reservation-link:
     note: Complimentary hot breakfast bar, workout room, and WiFi. Hotel is located 1.6 miles from UCLA.
     map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13221.692235288445!2d-118.46130966530112!3d34.05866776665725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x80c2bb70936a03b9%3A0x4391c4792fd27696!2sHoliday+Inn+Express+West+Los+Angeles%2C+11250+Santa+Monica+Blvd%2C+Los+Angeles%2C+CA+90025!3m2!1d34.0466276!2d-118.4473661!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0696771!2d-118.4442945!5e0!3m2!1sen!2sus!4v1522600495912
 
