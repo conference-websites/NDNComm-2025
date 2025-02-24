@@ -26,9 +26,9 @@
     - name: Accommodations
       url: /accommodations.html
 
-- name: Anti-Harassment Policy
-  url: /policy-anti-harassment.html
-  icon: fa-shield-virus
+# - name: Anti-Harassment Policy
+#   url: /policy-anti-harassment.html
+#   icon: fa-shield-virus
 
 - name: Previous Editions
   submenu:
