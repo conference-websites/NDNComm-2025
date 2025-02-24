@@ -19,10 +19,10 @@ conference:
   important: true
 
 reg-submission:
-  track: posters
+  track: reg
   info: "Registration for In-Person Attendance"
   date: "April 3, 2025"
 reg-notification:
-  track: posters
+  track: reg
   info: "Registration for Remote Participation"
   date: "April 10, 2025"

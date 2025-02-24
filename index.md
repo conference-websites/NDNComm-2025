@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NDN Community Meeting 2025
-og_tags:
+Og_tags:
   - property: og:description
     content: The organizing committee is delighted to invite you to NDN Community Meeting 2025.
 ---
@@ -19,3 +19,6 @@ The organizing committee of NDNComm’25 cordially invites you to participate in
 
 ## Important Dates
 {% include dates.html track = "main" %}
+
+Registration Deadlines:
+{% include dates.html track = "reg" %}

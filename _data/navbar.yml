@@ -2,6 +2,10 @@
   url: /
   icon: fa-home
 
+- name: ">> Call for Participation <<"
+  icon: fa-bullhorn
+  url: /cfp.html
+
 - name: "Registration"
   url: /registration.html
   icon: fa-external-link
@@ -13,10 +17,6 @@
 - name: Organizing Committee
   url: /org-committee.html
   icon: fa-people-group
-
-- name: Call for Participation
-  icon: fa-bullhorn
-  url: /cfp.html
 
 - name: Local Information
   icon: fa-map

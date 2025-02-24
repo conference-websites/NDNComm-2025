@@ -56,10 +56,12 @@
       <th>Discount code:</th>
       <td>{{ hotel.discount-code }}</td>
     </tr>
+    {% if hotel.reservation-info %}
     <tr>
       <th>Reservation: </th>
       <td>{{ hotel.reservation-info }}</td>
     </tr>
+    {% endif %}
     {% if hotel.attention %}
     <tr>
       <th>Attention: </th>
@@ -72,7 +74,9 @@
     {{ hotel.note }}
   {% endif %}
 
+  {% if hotel.reservation-link %}
   <br/><a href="{{ hotel.reservation-link }}" class="button" data-role="button" data-theme="a" target="_blank"><i class="fa fa-hotel"></i>&nbsp;&nbsp;&nbsp;Online Reservation</a><br/>
+  {% endif %}
   
   <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="{{ hotel.id }}"></iframe>
   <script>

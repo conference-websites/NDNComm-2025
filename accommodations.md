@@ -51,7 +51,7 @@ hotels:
     url: https://www.palisociety.com/hotels/westwood-village
     phone: (310) 340-1234
     rating: 4
-    map: 
+    map: https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d6610.320590037382!2d-118.44856903629989!3d34.06540492994141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c2bc81b3014953%3A0x1d7bc34ffb78098f!2sPalihotel+Westwood+Village%2C+Tiverton+Avenue%2C+Los+Angeles%2C+CA!3m2!1d34.0608623!2d-118.4429516!4m5!1s0x80c2bc88bcefb20f%3A0xc622b89fcd2f5d21!2sEngineering+VI%2C+404+Westwood+Plaza%2C+Los+Angeles%2C+CA+90095!3m2!1d34.0694996!2d-118.44452559999999!5e0!3m2!1sen!2sus!4v1740365717161
     note: "20 minute walk"
     
   - id: royal
