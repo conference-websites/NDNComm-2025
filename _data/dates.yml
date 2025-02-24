@@ -1,0 +1,28 @@
+# Special considerations for the index page:
+# - track's title will be automatically added as a prefix
+# - the specified title will be downcased
+# - info: Workshop proposals due
+# - index page will show date only if important==true
+
+# All listed dates will appear in the specified order
+
+main-submission:
+  track: main
+  info: "Abstract Submission"
+  date: "March 31, 2025"
+  important: true
+
+conference:
+  track: main
+  info: "NDN Community Meeting 2025"
+  date: "April 17-18, 2025"
+  important: true
+
+reg-submission:
+  track: posters
+  info: "Registration for In-Person Attendance"
+  date: "April 3, 2025"
+reg-notification:
+  track: posters
+  info: "Registration for Remote Participation"
+  date: "April 10, 2025"

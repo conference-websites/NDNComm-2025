@@ -1,0 +1,41 @@
+---
+layout: default
+title: Conference Program
+og_tags:
+- property: og:description
+content: Program
+---
+
+<h2>Conference Program</h2>
+
+{% comment %}
+Kindly note that the schedule below is tentative and subject to updates.
+{% endcomment %}
+
+<p style="text-align: center;">
+  <a data-ajax="false" href="{{ site.data['program-at-glance'] }}.pdf?digest={{ site.data['program-at-glance-digest'] }}">Conference Schedule at a Glance
+    <img src="{{ site.data['program-at-glance'] }}.png?digest={{ site.data['program-at-glance-digest'] }}" style="max-width: 100%" /></a>
+</p>
+
+<h3>Schedule</h3>
+<div id="prog_ctrl" data-role="navbar">
+  <ul>
+    <li><a href="#" onClick="filter('monday');">Monday</a></li>
+    <li><a href="#" onClick="filter('tuesday');">Tuesday</a></li>
+    <li><a href="#" onClick="filter('wednesday');">Wednesday</a></li>
+    <li><a href="#" onClick="filter('all');" class="ui-btn-active ui-state-persist roundright">All Days</a></li>
+  </ul>
+</div>
+
+{% include program-online.html type="program" %}
+
+
+{% comment %}
+
+  <h3>List of Accepted Posters</h3>
+  {% include program-online.html type="posters" %}
+
+  <h3>List of Accepted Demos</h3>
+  {% include program-online.html type="demos" %}
+
+{% endcomment %}

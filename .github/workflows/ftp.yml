@@ -1,0 +1,31 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    # re-build (e.g., for program changes) twice a day
+    - cron:  '30 5,17 * * *'
+  workflow_dispatch:
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+        
+    - name: Build Site with Jekyll
+      run: docker run --rm -v "`pwd`:/build" -w /build cawka/acm-icn-2023-builder:v1 bundler exec jekyll build
+    
+    - name: Deploy to ${{ vars.DEPLOYMENT_HOST }}
+      uses: easingthemes/ssh-deploy@a1aa0b6cf96ce2406eef90faa35007a4a7bf0ac0 # v5.1.1
+      with:
+        ARGS: -chirvzEW --delay-updates --delete-delay
+        REMOTE_HOST: ${{ vars.DEPLOYMENT_HOST }}
+        REMOTE_PORT: ${{ secrets.DEPLOYMENT_PORT }}
+        REMOTE_USER: ${{ secrets.DEPLOYMENT_USER }}
+        SSH_PRIVATE_KEY: ${{ secrets.DEPLOYMENT_SSH_KEY }}
+        SOURCE: ./
+        TARGET: /var/www/named-data.net/ndncomm2025/
+

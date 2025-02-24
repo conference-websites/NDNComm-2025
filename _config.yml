@@ -1,0 +1,44 @@
+safe: false
+source: .
+destination: ./_site
+plugins_dir: ./_plugins
+highlighter: rouge
+markdown: kramdown
+exclude: ['.git', '.travis.yml', '.travis.d', '.sass-cache', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md', '.asset-cache', 'Dockerfile', '_scripts', 'vendor/']
+encoding: utf-8
+
+url: https://ndncomm2025.named-data.net
+baseurl:
+
+plugins:
+  - jekyll-sitemap
+
+# Configuration for site
+title: NDN Community Meeting 2025
+logo:
+  image: logo-ndncomm2025.png
+  info: NDN Community Meeting 2025
+
+# # ACM ICN'2023 tracking
+# google_analytics_id: G-F8VR0256LN
+
+# program:
+#   # If the specified file doesn't exist, there will be command-line dialog to create it
+#   # (Currently hardcoded for a dummy robot.mcrobot.jr@gmail.com account permissions)
+#   google_client_id: .travis.d/google_client_id.json
+#   # Google spreadsheet with the conference data
+#   spreadsheet: 1mYnDYs5c3TwrBuyunftKXilICqUP2pPGMwihqWckKmM
+
+# program-at-glance:
+#   google_client_id: .travis.d/google_client_id.json
+#   spreadsheet:
+#     - 1mYnDYs5c3TwrBuyunftKXilICqUP2pPGMwihqWckKmM
+#   sheet:
+#     - program-at-glance
+#   path: assets/images
+
+sass:
+  sass_dir: assets/css
+
+  style: compressed
+  sourcemap: always

@@ -1,0 +1,48 @@
+- name: Home
+  url: /
+  icon: fa-home
+
+- name: "Registration"
+  url: /registration.html
+  icon: fa-external-link
+
+# - name: "Program"
+#   url: /program.html
+#   icon: fa-calendar
+
+- name: Organizing Committee
+  url: /org-committee.html
+  icon: fa-people-group
+
+- name: Call for Participation
+  icon: fa-bullhorn
+  url: /cfp.html
+
+- name: Local Information
+  icon: fa-map
+  submenu:
+    - name: Venue
+      url: /venue.html
+    - name: Accommodations
+      url: /accommodations.html
+
+- name: Anti-Harassment Policy
+  url: /policy-anti-harassment.html
+  icon: fa-shield-virus
+
+- name: Previous Editions
+  submenu:
+    - name: NDN Community Meeting 2024
+      url: https://www.nist.gov/news-events/events/ndncomm2024
+    - name: NDN Community Meeting 2023
+      url: https://www.nist.gov/news-events/events/2023/03/ndncomm-2023
+    - name: NDN Community Meeting 2021
+      url: https://www.nist.gov/news-events/events/2021/10/ndn-community-meeting-2021
+    - name: NDN Community Meeting 2020
+      url: https://www.nist.gov/news-events/events/ndn-community-meeting
+    - name: NDN Community Meeting 2019
+      url: https://www.nist.gov/news-events/events/2019/09/ndn-community-meeting
+    - name: NDN Community Meeting 2018
+      url: https://www.nist.gov/news-events/events/2018/09/named-data-networking-community-meeting-2018
+    - name: NDN Community Meeting 2017
+      url: https://www.caida.org/workshops/ndn/1703/
