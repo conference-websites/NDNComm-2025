@@ -26,6 +26,6 @@ jobs:
         REMOTE_PORT: ${{ secrets.DEPLOYMENT_PORT }}
         REMOTE_USER: ${{ secrets.DEPLOYMENT_USER }}
         SSH_PRIVATE_KEY: ${{ secrets.DEPLOYMENT_SSH_KEY }}
-        SOURCE: ./
-        TARGET: /var/www/named-data.net/ndncomm2025/
+        SOURCE: ./_site/
+        TARGET: /var/www/named-data.net/ndncomm2025
 
