@@ -19,7 +19,7 @@ The conference center is just 12 miles from Los Angeles Internation Airport (LAX
 
 Venue address:
 
-  > Engineering VI, Room 134 (Cohen Room)
+  > Engineering VI, Room 134 (Cohen Room)  
   > 404 Westwood Plaza  
   > Los Angeles 90095
 
