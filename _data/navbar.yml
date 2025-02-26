@@ -10,6 +10,11 @@
   url: /registration.html
   icon: fa-external-link
 
+
+- name: "Submission"
+  url: /submission.html
+  icon: fa-paperclip
+
 # - name: "Program"
 #   url: /program.html
 #   icon: fa-calendar
@@ -26,6 +31,10 @@
     - name: Accommodations
       url: /accommodations.html
 
+- name: NDN Hackathon
+  url: https://17th-ndn-hackathon.named-data.net/
+  icon: fa-stapler
+      
 # - name: Anti-Harassment Policy
 #   url: /policy-anti-harassment.html
 #   icon: fa-shield-virus
