@@ -6,18 +6,18 @@
   icon: fa-bullhorn
   url: /cfp.html
 
+- name: "Program"
+  url: /program.html
+  icon: fa-calendar
+
 - name: "Registration"
   url: /registration.html
   icon: fa-external-link
-
 
 - name: "Submission"
   url: /submission.html
   icon: fa-paperclip
 
-# - name: "Program"
-#   url: /program.html
-#   icon: fa-calendar
 
 - name: Organizing Committee
   url: /org-committee.html

@@ -22,12 +22,12 @@ logo:
 # # ACM ICN'2023 tracking
 # google_analytics_id: G-F8VR0256LN
 
-# program:
-#   # If the specified file doesn't exist, there will be command-line dialog to create it
-#   # (Currently hardcoded for a dummy robot.mcrobot.jr@gmail.com account permissions)
-#   google_client_id: .travis.d/google_client_id.json
-#   # Google spreadsheet with the conference data
-#   spreadsheet: 1mYnDYs5c3TwrBuyunftKXilICqUP2pPGMwihqWckKmM
+program:
+  # If the specified file doesn't exist, there will be command-line dialog to create it
+  # (Currently hardcoded for a dummy robot.mcrobot.jr@gmail.com account permissions)
+  google_client_id: .travis.d/google_client_id.json
+  # Google spreadsheet with the conference data
+  spreadsheet: 1SAP_1BrYdd8TGPV5opiw0PSwfo1_TTiag8V1vP2Lz2M
 
 # program-at-glance:
 #   google_client_id: .travis.d/google_client_id.json

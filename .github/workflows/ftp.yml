@@ -4,8 +4,8 @@ on:
   push:
     branches: [ master ]
   schedule:
-    # re-build (e.g., for program changes) twice a day
-    - cron:  '30 5,17 * * *'
+    # re-build (e.g., for program changes) every hour
+    - cron:  '30 * * * *'
   workflow_dispatch:
     
 jobs:
