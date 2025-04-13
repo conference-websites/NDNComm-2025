@@ -2,21 +2,21 @@
   url: /
   icon: fa-home
 
-- name: ">> Call for Participation <<"
-  icon: fa-bullhorn
-  url: /cfp.html
-
-- name: "Program"
+- name: ">> Program <<"
   url: /program.html
   icon: fa-calendar
+
+# - name: "Call for Participation"
+#   icon: fa-bullhorn
+#   url: /cfp.html
 
 - name: "Registration"
   url: /registration.html
   icon: fa-external-link
 
-- name: "Submission"
-  url: /submission.html
-  icon: fa-paperclip
+# - name: "Submission"
+#   url: /submission.html
+#   icon: fa-paperclip
 
 
 - name: Organizing Committee
